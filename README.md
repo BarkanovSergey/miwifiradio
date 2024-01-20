@@ -14,10 +14,10 @@
 git clone https://github.com/BarkanovSergey/miwifiradio
 
 Перейдите в папку
-cd miwifiradio/docker/
+"cd miwifiradio/docker/"
 
 Настройте конфигурацию в соответствии с вашей средой в файле docker/.env 
-nano .env
+"nano .env"
 
 Разверните докер-контейнеры:
 docker compose up -d
