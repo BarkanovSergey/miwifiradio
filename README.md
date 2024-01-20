@@ -8,7 +8,7 @@
 
 Установите докер https://docs.docker.com/install/linux/docker-ce .
 
-Установите docker compose https://docs.docker.com/compose/install/#install-compose .
+Установите docker compose [https://docs.docker.com/compose/install/#install-compose .](https://docs.docker.com/compose/install/linux/#install-using-the-repository)
 
 Клонируйте этот репозиторий с помощью git clone https://github.com/BarkanovSergey/miwifiradio
 
