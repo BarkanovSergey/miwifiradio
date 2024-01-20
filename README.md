@@ -6,7 +6,7 @@
 
 На сервере
 
-Установите докер https://docs.docker.com/install/linux/docker-ce .
+Установите докер [https://docs.docker.com/install/linux/docker-ce .](https://docs.docker.com/engine/install/debian/)
 
 Установите docker compose [https://docs.docker.com/compose/install/#install-compose .](https://docs.docker.com/compose/install/linux/#install-using-the-repository)
 
