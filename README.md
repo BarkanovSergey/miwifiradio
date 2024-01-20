@@ -12,11 +12,11 @@
 
 Клонируйте этот репозиторий с помощью git clone https://github.com/BarkanovSergey/miwifiradio
 
-Настройте конфигурацию в соответствии с вашей средой в файле docker/.env
+cd miwifiradio/docker/
+
+Настройте конфигурацию в соответствии с вашей средой в файле docker/.env 
 
 Разверните докер-контейнеры:
-
-cd miwifiradio/docker/
 
 docker compose up -d
 
