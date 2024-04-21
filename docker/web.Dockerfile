@@ -3,9 +3,9 @@ ARG MIR_WWW_PATH
 ARG MIR_DOMAIN_NAME
 ARG MIR_SSL_ENABLED
 ENV MIR_WWW_PATH=$MIR_WWW_PATH
-RUN apk add -X https://nl.alpinelinux.org/alpine/edge/main -u alpine-keys --allow-untrusted
+RUN apk add -X https://nl.alpinelinux.org/alpine/edge/main -u alpine-keys
 RUN echo "@edge http://nl.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories
-RUN apk update
+#RUN apk update
 RUN apk add ffmpeg
 RUN mkdir -p $MIR_WWW_PATH
 WORKDIR $MIR_WWW_PATH
